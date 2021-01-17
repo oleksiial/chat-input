@@ -1,0 +1,21 @@
+.messagesContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.5em;
+
+  overflow-y: auto;
+  margin-bottom: 0.5em;
+  padding-right: 0.25em;
+}
+
+.messageBox {
+  background-color: var(--ion-color-light);
+  border-radius: 0.25em;
+
+  padding: 0.5em;
+}
+
+.messageBox p {
+  padding: 0;
+  margin: 0;
+}

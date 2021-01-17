@@ -1,0 +1,11 @@
+.chatInput {
+  display: flex;
+}
+
+.textareaContainer {
+  background-color: var(--ion-color-light);
+  border-radius: 0.25em;
+  padding: 0.25em;
+  flex: 1;
+  margin-right: 0.25em;
+}
